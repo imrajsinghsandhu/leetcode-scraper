@@ -4,6 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# Specify the path to ChromeDriver executable
+chrome_driver_path = 'path/to/chromedriver.exe'  # Replace with the actual path
+
 # Initialize the WebDriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--start-maximized")
